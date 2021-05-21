@@ -7,6 +7,7 @@ import Pizza from './Component/Input'
 import Scroll from './Component/Scroll'
 import Maruf from './Component/Maruf'
 import FList from './Component/FList';
+import SList from './Component/SectionList'
 export default function App() {
   return (
 
@@ -21,8 +22,9 @@ export default function App() {
 
      <FList/>
 
-     <Scroll/>
-    
+     <SList/>
+     {/* <Scroll/> */}
+     
    </ScrollView>
   );
 }

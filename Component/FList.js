@@ -50,7 +50,7 @@ const FList = ()=>{
               
                 // renderItem={ ({item})=> <Text style={styles.item}>{item.key}</Text> }
 
-                renderItem = {({item}) => <Text style={styles.btn}>{item.key}</Text>}
+                renderItem = {({item}) => <Text style={styles.item}>{item.key}</Text>}
             
             
             />
